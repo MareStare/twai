@@ -1,0 +1,46 @@
+name: ci
+
+on:
+  workflow_dispatch:
+  merge_group:
+  pull_request:
+  push:
+    branches: [main]
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Check for typos in the repository based on a static dictionary
+  typos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: crate-ci/typos@v1.28.4
+
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Needed for "lastUpdated" property in VitePress
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+      - run: npx prettier --check .
+      - run: scripts/validate-links.sh
+
+  deploy:
+    needs: [validate, typos]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
