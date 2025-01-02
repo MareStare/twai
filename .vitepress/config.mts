@@ -82,7 +82,7 @@ export default defineConfig({
         },
 
         editLink: {
-            pattern: "https://github.com/MareStare/twai/edit/main/:path",
+            pattern: "https://github.com/MareStare/twai/edit/main/src/:path",
             text: "Edit this page on GitHub",
         },
 
@@ -112,6 +112,14 @@ export default defineConfig({
             {
                 text: "Software",
                 link: "/software",
+            },
+            {
+                text: "Publishing",
+                link: "/publishing",
+            },
+            {
+                text: "Contributing",
+                link: "/contributing",
             },
         ],
     },

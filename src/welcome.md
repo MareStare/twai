@@ -1,13 +1,13 @@
 <figure align="center">
     <img src="/siber-twi-nebula.jpg" style="border-radius: 20px" data-zoomable></img>
     <figcaption align="right">
-        <sub><a href="https://tantabus.ai/images/33165">AI art by Siberpone</a></sub>
+        <sub><a href="https://tantabus.ai/images/33165">AI art by Siber</a></sub>
     </figcaption>
 </figure>
 
 # Welcome
 
-Welcome to the pony AI art guide 👋! It's a handbook created with the purpose to teach you how to generate, compose and edit beautiful pony 🦄 images using AI.
+Welcome to the pony AI art guide 👋! It's a handbook created with the purpose of teaching you how to generate, compose and edit beautiful pony 🦄 images using AI.
 
 <!-- TODO: add some beautiful AI-generated image of twilight here -->
 
@@ -21,14 +21,12 @@ If you already have some experience with AI art, you may still find useful thing
 
 While most of the other guides on AI art show examples of photorealistic images and humans, we'll instead focus specifically on generating cartoon-style ponies from the "My Little Pony" series.
 
-Let's set our initial goal to generate the Twilight Sparkle image Icon of the Twai website (yes it was AI-generated):
+Let's set our initial goal to generate the Twilight Sparkle image icon of the Twai website (yes it was AI-generated):
 
 <p align="center">
     <img src="/twai-logo.png" width="300px" data-zoomable></img>
 </p>
 
-### Installing the Software
+Yes, you can easily reproduce the image above, if you use the same prompt and configuration parameters. To do that, we'll need to install some software for AI art generation.
 
-While there is a number of online AI art generators, 99% of AI artists don't use them because of their limitations. If you want to generate high quality AI art, you'll need to use your own computer and GPU for generating the images (this is called "local" generation).
-
-Go to the next page to learn about the software for AI art generation and how to install it.
+Let's go to the next page to learn about the required software and how to install it.
