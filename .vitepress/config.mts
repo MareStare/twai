@@ -2,8 +2,8 @@ import { defineConfig, HeadConfig } from "vitepress";
 import { abbr } from "@mdit/plugin-abbr";
 
 const head: HeadConfig[] = [
-    ["link", { rel: "icon", href: `/cutie-mark-thumb.png` }],
-    ["meta", { property: "og:image", content: `/twai-logo-thumb.png` }],
+    ["link", { rel: "icon", href: `/logos/twai.png` }],
+    ["meta", { property: "og:image", content: `/twai-brand-thumb.png` }],
 ];
 
 // Enable analytics only in the final build on CI. Locally, it's not needed.
@@ -71,7 +71,7 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     themeConfig: {
-        logo: "/cutie-mark-thumb.png",
+        logo: "/logos/twai.png",
 
         lastUpdated: {
             formatOptions: {

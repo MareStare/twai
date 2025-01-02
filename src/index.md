@@ -7,7 +7,7 @@ hero:
     text: Pony AI art guide
     tagline: Learn how to create beautiful pony images!
     image:
-        src: /twai-logo.png
+        src: /twai-brand.png
     actions:
         - theme: brand
           text: Guide

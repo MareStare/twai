@@ -5,18 +5,11 @@ Once your AI art is finished, you can share it with the world on any websites of
 Let's review some popular websites, where you'd want to post your AI art.
 
 <style>
-.logo {
-    display: inline-block;
-    background-size: contain;
-    min-width: 1em;
-    height: 1em;
-    text-decoration: underline;
-}
-.tantabus   { background-image: url(/tantabus-logo.svg); }
-.derpibooru { background-image: url(/derpibooru-logo.svg); }
+.tantabus   { background-image: url(/logos/tantabus.svg); }
+.derpibooru { background-image: url(/logos/derpibooru.svg); }
 </style>
 
-## <i class="tantabus logo"></i> [Tantabus](https://tantabus.ai)
+## <i class="tantabus inline-logo"></i> [Tantabus](https://tantabus.ai)
 
 This is the go-to website for posting almost any AI art with ponies. It is central to AI pony artists community, and we'd be glad to see your works here! You can post fully generated or edited AI art rating from SFW to NSFW with reasonable quality.
 
@@ -54,7 +47,7 @@ See the [tag guidelines](https://tantabus.ai/pages/tags) for more.
 
 This whole guide was written at the time when Tantabus was [spun off from Derpibooru](https://derpibooru.org/forums/meta/topics/policy-update-regarding-ai-content) and became a home for AI pony artists. If you have any questions about AI pony art or Tantabus not answered in this guide or just want to join our community, then enter the [Tantabus Discord server](https://tantabus.ai/pages/discord).
 
-## <i class="derpibooru logo"></i> [Derpibooru](https://derpibooru.org)
+## <i class="derpibooru inline-logo"></i> [Derpibooru](https://derpibooru.org)
 
 Derpibooru has strict content requirements for AI art. Citing [their rules](https://derpibooru.org/pages/rules):
 

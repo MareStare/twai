@@ -1,5 +1,5 @@
 <figure align="center">
-    <img src="/siber-twi-nebula.jpg" style="border-radius: 20px" data-zoomable></img>
+    <img src="/siber-twi-nebula.jpg"></img>
     <figcaption align="right">
         <sub><a href="https://tantabus.ai/images/33165">AI art by Siber</a></sub>
     </figcaption>
@@ -17,14 +17,14 @@ This guide is perfect for absolute beginners. You don't need to be a software de
 
 If you already have some experience with AI art, you may still find useful things here that will improve your existing creative workflows.
 
-## Reproducing Twai Icon Pony
+## Reproducing Twai Brand Pony
 
 While most of the other guides on AI art show examples of photorealistic images and humans, we'll instead focus specifically on generating cartoon-style ponies from the "My Little Pony" series.
 
-Let's set our initial goal to generate the Twilight Sparkle image icon of the Twai website (yes it was AI-generated):
+Let's set our initial goal to generate the Twilight Sparkle image brand of the Twai website (yes it was AI-generated):
 
 <p align="center">
-    <img src="/twai-logo.png" width="300px" data-zoomable></img>
+    <img src="/twai-brand.png" width="300px"></img>
 </p>
 
 Yes, you can easily reproduce the image above, if you use the same prompt and configuration parameters. To do that, we'll need to install some software for AI art generation.
