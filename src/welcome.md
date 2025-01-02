@@ -1,6 +1,6 @@
-<figure align="center">
+<figure>
     <img src="/siber-twi-nebula.jpg"></img>
-    <figcaption align="right">
+    <figcaption style="display: flex; justify-content: right">
         <sub><a href="https://tantabus.ai/images/33165">AI art by Siber</a></sub>
     </figcaption>
 </figure>
