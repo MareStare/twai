@@ -1,3 +1,10 @@
+<figure align="center">
+    <img src="/siber-twi-nebula.jpg" style="border-radius: 20px" data-zoomable></img>
+    <figcaption align="right">
+        <sub><a href="https://tantabus.ai/images/33165">AI art by Siberpone</a></sub>
+    </figcaption>
+</figure>
+
 # Welcome
 
 Welcome to the pony AI art guide 👋! It's a handbook created with the purpose to teach you how to generate, compose and edit beautiful pony 🦄 images using AI.
@@ -17,7 +24,7 @@ While most of the other guides on AI art show examples of photorealistic images 
 Let's set our initial goal to generate the Twilight Sparkle image Icon of the Twai website (yes it was AI-generated):
 
 <p align="center">
-    <img src="/twai-logo.png" width="300px"></img>
+    <img src="/twai-logo.png" width="300px" data-zoomable></img>
 </p>
 
 ### Installing the Software
