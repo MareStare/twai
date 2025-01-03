@@ -118,6 +118,10 @@ export default defineConfig({
                 link: "/publishing",
             },
             {
+                text: "Models",
+                link: "/models",
+            },
+            {
                 text: "Contributing",
                 link: "/contributing",
             },

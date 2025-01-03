@@ -25,7 +25,7 @@ https://github.com/vuejs/vitepress/issues/854#issuecomment-1232938474
     --vp-c-brand-3: var(--vp-c-purple-3);
 }
 
-.main img {
+[data-figure] {
     border-radius: 15px;
 }
 

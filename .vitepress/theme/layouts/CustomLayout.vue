@@ -14,7 +14,7 @@ const initZoom = () => {
     // God bless this kind person for sharing the code snippet that adds the
     // ability to zoom images.
     // https://github.com/vuejs/vitepress/issues/854#issuecomment-2222071714
-    mediumZoom(".main img", { background: "var(--vp-c-bg)" });
+    mediumZoom("[data-figure]", { background: "var(--vp-c-bg)" });
 };
 
 watch(
