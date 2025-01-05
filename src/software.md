@@ -1,9 +1,19 @@
+<style>
+.aura-flow        { background-image: url(/logos/aura-flow.png); }
+.forge            { background-image: url(/logos/forge.svg); }
+.nvidia           { background-image: url(/logos/nvidia.svg); }
+.purplesmart-ai   { background-image: url(/logos/purplesmart-ai.ico); }
+.stability-ai     { background-image: url(/logos/stability-ai.png); }
+.stability-matrix { background-image: url(/logos/stability-matrix.ico); }
+.windows          { background-image: url(/logos/windows.svg); }
+</style>
+
 # Software
 
 There are many online AI art generators, for example:
 
--   [civitai](https://civitai.com)
--   [purplesmart.ai Discord bot](http://discord.gg/94KqBcE)
+-   [Civitai](https://civitai.com)
+-   [PurpleSmart.ai Discord bot](http://discord.gg/94KqBcE)
 
 However, most AI artists don't use them because of their limitations. For example, they limit the number of image generations available, and they don't give you full control of all generation parameters so that you don't overload their servers.
 
@@ -12,11 +22,6 @@ If you want to generate high quality AI art, you'll need to use your own compute
 ## System Requirements
 
 Here are the recommended computer specs for local AI art generation.
-
-<style>
-.windows { background-image: url(/logos/windows.svg); }
-.nvidia { background-image: url(/logos/nvidia.svg); }
-</style>
 
 -   <i class="windows inline-logo"></i> Windows OS
 -   <i class="nvidia inline-logo"></i> NVIDIA GPU
@@ -40,11 +45,7 @@ Some AI artists claim, that they survive with a GTX 1060 (`3GB` of VRAM), so don
 
 :::
 
-<style>
-.stability-matrix   { background-image: url(/logos/stability-matrix.svg); }
-</style>
-
-## Stability Matrix
+## <i class="stability-matrix inline-logo"></i> Stability Matrix
 
 [Stability Matrix](https://lykos.ai/) is the first application you should install. It is a central manager for all other components of the AI art software ecosystem. You'll use it to install the user interfaces and AI models of your liking and keep all things nicely organized.
 
@@ -60,7 +61,7 @@ It'll ask you your permission to share analytics. Feel free to confirm it.
 
 Now, let's press the button "Skip first-time setup" because StabilityMatrix may crash due to [this bug](https://github.com/LykosAI/StabilityMatrix/issues/1078) at the time of this writing if you don't do this. Don't worry, we'll still configure everything, so just bear with me 😅.
 
-## Forge
+## <i class="forge inline-logo"></i> Forge
 
 Forge is a web UI that you'll use to generate AI images. You may want to try other web UIs (such as ComfyUI) in the future, but Forge is perfect for starters.
 
@@ -72,11 +73,25 @@ In StabilityMatrix click on "Packages", then "+ Add Package" at the bottom. You 
 
 Click on "Stable Diffusion WebUI Forge", then "Install" and wait for the download, it may take several minutes.
 
-## Pony Diffusion V6 XL
+## <i class="stability-ai inline-logo"></i> Stable Diffusion
 
-Pony Diffusion XL is an AI model based on Stable Diffusion XL (SDXL for short). The AI model is the core part of all of this. It directly determines what images you'll generate, their quality, style and content in general.
+Before we discuss the Pony Diffusion AI model for generating pony images specifically, we need to understand the core technology behind it - Stable Diffusion.
 
-Pony Diffusion is the most famous AI model for generating... You guessed it - ponies 😏. Anyhow, it's popular far beyond MLP community (including anime and furry), because it can generate almost any anime/cartoon character in artistic style. It's developed by [purplesmart.ai](https://purplesmart.ai/), and it has a large community on [Discord](https://purplesmart.ai/discord). Feel free to join it and ask questions in `#novice-questions`.
+[**Stable Diffusion**](https://stability.ai/stable-image) is a free and open-source [generative](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) AI model developed by Stability AI. It is at the heart of Pony Diffusion and many other custom AI models. Training a base model requires insane amount of compute resources and captioned images, so it's ridiculously expensive and only a few base models exist out there.
+
+Thus, custom models such as Pony Diffusion aren't developed from scratch. They are built on top of Stable Diffusion by extending it with an additional dataset of images with the intended style and characters.
+
+The process of training a custom model on top of a base model is called "fine-tuning". So, beware of the difference between a "base model" and a "fine-tune model" (or "fine-tune" for short).
+
+There are a bunch of versions of Stable Diffusion: `1.4`, `1.5`, `2.0`, `2.1`, `XL`, `3.0`, `3.5`, etc. We'll focus on fine-tunes of `XL` version (SDXL) in this guide.
+
+The upcoming version of Pony Diffusion (V7) will use a new base model - <i class="aura-flow inline-logo"></i> [Aura Flow](https://fal.ai/models/fal-ai/aura-flow). We'll update the guide once that version is generally available.
+
+## <i class="purplesmart-ai inline-logo"></i> Pony Diffusion V6 XL
+
+Pony Diffusion XL is an AI model fine-tuned on Stable Diffusion XL (SDXL for short). The AI model directly determines what images you'll get, their quality, style and content in general.
+
+Pony Diffusion is most famous for generating... you guessed it - ponies 😏. Anyhow, it's popular far beyond MLP community (including anime and furry), because it can generate almost any anime/cartoon character in artistic style. It's developed by [PurpleSmart.ai](https://purplesmart.ai/), and it has a large community on [Discord](https://purplesmart.ai/discord). Feel free to join it and ask questions in `#novice-questions`.
 
 There are a bunch of other AI models capable of generating ponies, and you'll likely try several of them in the future. We'll get to them later in the [Models](./models) chapter, but let's start with Pony Diffusion.
 
@@ -84,17 +99,17 @@ There are a bunch of other AI models capable of generating ponies, and you'll li
 
 In StabilityMatrix click on "Model Browser" and search for "Pony":
 
-![](/software/sm-pdxl-model.png)
+![](/software/sm-pdxl-model.png){data-figure}
 
 ::: tip
 
-A common mistake when searching for models is where you have a wrong "Model Type" selected. Always pay attention to it when you are in the "Model Browser". In this case the "Model Type" should be either `Checkpoint` or `All`.
+A common mistake when searching for models is having a wrong "Model Type" selected. Always pay attention to it when you are in the "Model Browser". In this case the "Model Type" should be either `Checkpoint` or `All`.
 
 :::
 
-Click on "Pony Diffusion V6 XL" and then "Import". The download will start on the background. In the meantime, open "Pony Diffusion V6 XL" again, but select `sdxl_vae` to the right and click "Import" once more:
+Click on "Pony Diffusion V6 XL" and then "Import". The download will start in the background. In the meantime, open "Pony Diffusion V6 XL" again, but select `sdxl_vae` to the right and click "Import" once more:
 
-![](/software/sm-pdxl-vae.png)
+![](/software/sm-pdxl-vae.png){data-figure}
 
 VAE is a supplementary file, that will improve the quality of the generated images. If a model comes with a VAE file, you should always download it. Unfortunately, StabilityMatrix doesn't make it easy for you to download both the model and the VAE file both at once, so you have to click "Import" for each of them separately.
 
@@ -106,20 +121,15 @@ After you've done all the above, you'll have a folder with two entries in it lik
 
 ![](/software/sm-location-example.png){data-figure}
 
-The folder structure in the `Data` is very intuitive:
+The folder structure in the `Data` is very simple.
 
--   `Packages` - web UI packages (we have Forge);
--   `Models/StableDiffusion` - core Stable Diffusion AI model files (we have Pony Diffusion);
--   `Models/...` - other types of models such as LORAs, that we'll discuss later
+![](/software/sm-folder-structure.png){data-figure}
 
-::: tip
+| Folder                    | Description                                                                                                  |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `/Packages`               | Web UI packages (we have Forge)                                                                              |
+| `/Models/StableDiffusion` | Base or fine-tune AI model files, also called "checkpoints" (we have Pony Diffusion)                         |
+| `/Models/...`             | Other types of models such as LORAs (`/Models/Lora`). We'll discuss them later                               |
+| `/Images/Text2Img`        | History of images generated by AI from a text prompt. There are separate folders for each day of generation. |
 
-Stable diffusion AI models are also sometimes called just "checkpoints".
-
-:::
-
-You may sometimes need to download something outside StabilityMatrix or find your old generated images, and so you should be aware of its folder structure. This folder organization also makes it easy to move all your AI models, UIs, images to another location or even another PC.
-
-TODO: add images folder to the diagram:
-
-![](/software/ai-art-software.png){data-figure}
+There is also `/Images/Img2Img` for images generated from other images, but we'll discuss that technique later.
