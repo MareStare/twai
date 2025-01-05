@@ -18,7 +18,7 @@ It's recommended to create a Desktop shortcut for `StabilityMatrix.exe`, or pin 
 
 When you open StabilityMatrix it shows you the "Packages" page, where you can see your installed web UIs. There should be only "Stable Diffusion WebUI Forge" there if you followed the [Software](./software#forge) installation guide:
 
-![](./text-to-image/sm-forge-package.png){.figure .width75}
+![](/basics/text-to-image/sm-forge-package.png){.figure .width75}
 
 ### Launch Ceremony
 
@@ -28,7 +28,7 @@ An average startup time for Forge is about half a minute depending on the extens
 
 When Forge finishes launching, your default web browser will automatically open a page like this:
 
-![](./text-to-image/forge-ui.png){.figure}
+![](/basics/text-to-image/forge-ui.png){.figure}
 
 If a page doesn't appear make sure there are no `error`s in Forge's logs in StabilityMatrix (you can use `Ctrl+F` to search). If you see this line in the logs, then Forge should be up and running:
 
@@ -38,4 +38,4 @@ Running on local URL:  http://127.0.0.1:7860
 
 You can force-open the web page by clicking on the button "Open Web UI" in StabilityMatrix.
 
-![](./text-to-image/sm-open-web-ui.png){.figure .width75}
+![](/basics/text-to-image/sm-open-web-ui.png){.figure .width75}
