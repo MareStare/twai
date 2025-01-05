@@ -114,6 +114,10 @@ export default defineConfig({
                 link: "/software",
             },
             {
+                text: "Prompting Basics",
+                link: "/prompting-basics",
+            },
+            {
                 text: "Publishing",
                 link: "/publishing",
             },

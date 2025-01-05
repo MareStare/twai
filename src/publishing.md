@@ -1,6 +1,6 @@
 # Publishing
 
-Once your AI art is finished, you can share it with the world on any websites of your choice. Such websites have rules and limitations for posting the AI content. You must know them before publishing your work.
+Once your AI art is finished, you can share it with the world on any websites of your choice. Such websites have rules and limitations for posting AI content. You _must_ know them before publishing your work.
 
 Let's review some popular websites, where you'd want to post your AI art.
 
@@ -15,7 +15,7 @@ This is the go-to website for posting almost any AI art with ponies. It is centr
 
 Citing the [relevant site rules](https://tantabus.ai/pages/rules):
 
-> -   Images not made by or with AI should have a clear relation to the topic, or one’s workflow. For example, a guide on how to use a tool, or a sketch to be used for a controlnet image.
+> Images not made by or with AI should have a clear relation to the topic, or one’s workflow. For example, a guide on how to use a tool, or a sketch to be used for a controlnet image.
 
 Now let's learn how to properly tag our AI art.
 
