@@ -83,7 +83,7 @@ Pony Diffusion XL is an AI model fine-tuned on Stable Diffusion XL (SDXL for sho
 
 Pony Diffusion is most famous for generating... you guessed it - ponies 😏. Anyhow, it's popular far beyond MLP community (including anime and furry), because it can generate almost any anime/cartoon character in artistic style. It's developed by [PurpleSmart.ai](https://purplesmart.ai/), and it has a large community on [Discord](https://purplesmart.ai/discord). Feel free to join it and ask questions in `#novice-questions`.
 
-There are a bunch of other AI models capable of generating ponies, and you'll likely try several of them in the future. We'll get to them later in the [Models](./models) chapter, but let's start with Pony Diffusion.
+There are a bunch of other AI models capable of generating ponies, and you'll likely try several of them in the future. We'll get to them later in the [Models](../models) chapter, but let's start with Pony Diffusion.
 
 ### Installing
 
