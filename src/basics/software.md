@@ -1,13 +1,3 @@
-<style>
-.aura-flow        { background-image: url(/logos/aura-flow.png); }
-.forge            { background-image: url(/logos/forge.svg); }
-.nvidia           { background-image: url(/logos/nvidia.svg); }
-.purplesmart-ai   { background-image: url(/logos/purplesmart-ai.ico); }
-.stability-ai     { background-image: url(/logos/stability-ai.png); }
-.stability-matrix { background-image: url(/logos/stability-matrix.ico); }
-.windows          { background-image: url(/logos/windows.svg); }
-</style>
-
 # Software
 
 There are many online AI art generators, for example:
@@ -69,7 +59,7 @@ Forge is a web UI that you'll use to generate AI images. You may want to try oth
 
 In StabilityMatrix click on "Packages", then "+ Add Package" at the bottom. You should see this:
 
-![](/software/sm-forge-package.png){data-figure}
+![](./software/sm-forge-package.png){.figure}
 
 Click on "Stable Diffusion WebUI Forge", then "Install" and wait for the download, it may take several minutes.
 
@@ -99,7 +89,7 @@ There are a bunch of other AI models capable of generating ponies, and you'll li
 
 In StabilityMatrix click on "Model Browser" and search for "Pony":
 
-![](/software/sm-pdxl-model.png){data-figure}
+![](./software/sm-pdxl-model.png){.figure}
 
 ::: tip
 
@@ -109,7 +99,7 @@ A common mistake when searching for models is having a wrong "Model Type" select
 
 Click on "Pony Diffusion V6 XL" and then "Import". The download will start in the background. In the meantime, open "Pony Diffusion V6 XL" again, but select `sdxl_vae` to the right and click "Import" once more:
 
-![](/software/sm-pdxl-vae.png){data-figure}
+![](./software/sm-pdxl-vae.png){.figure}
 
 VAE is a supplementary file, that will improve the quality of the generated images. If a model comes with a VAE file, you should always download it. Unfortunately, StabilityMatrix doesn't make it easy for you to download both the model and the VAE file both at once, so you have to click "Import" for each of them separately.
 
@@ -119,11 +109,11 @@ VAE comes as a separate smaller file to make it easier for developers to update 
 
 After you've done all the above, you'll have a folder with two entries in it like this:
 
-![](/software/sm-location-example.png){data-figure}
+![](./software/sm-location-example.png){.figure}
 
 The `Data` folder was created by StabilityMatrix and its structure is very simple.
 
-![](/software/sm-folder-structure.png){data-figure}
+![](./software/sm-folder-structure.png){.figure}
 
 | Folder                    | Description                                                                             |
 | ------------------------- | --------------------------------------------------------------------------------------- |

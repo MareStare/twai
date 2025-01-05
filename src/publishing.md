@@ -4,11 +4,6 @@ Once your AI art is finished, you can share it with the world on any websites of
 
 Let's review some popular websites, where you'd want to post your AI art.
 
-<style>
-.tantabus   { background-image: url(/logos/tantabus.svg); }
-.derpibooru { background-image: url(/logos/derpibooru.svg); }
-</style>
-
 ## <i class="tantabus inline-logo"></i> [Tantabus](https://tantabus.ai)
 
 This is the go-to website for posting almost any AI art with ponies. It is central to AI pony artists community, and we'd be glad to see your works here! You can post fully generated or edited AI art rating from SFW to NSFW with reasonable quality.

@@ -1,5 +1,5 @@
 <figure>
-    <img src="/welcome/siber-twi-nebula.jpg" data-figure></img>
+    <img src="/welcome/siber-twi-nebula.jpg" class="figure"></img>
     <figcaption style="text-align: right;">
         <sub><a href="https://tantabus.ai/images/33165">AI art by Siber</a></sub>
     </figcaption>
@@ -29,11 +29,9 @@ While most of the other guides on AI art show examples of photorealistic images 
 
 Let's set our initial goal to generate the Twilight Sparkle image brand of the Twai website (yes it was AI-generated):
 
-<p align="center">
-    <img src="/twai-brand.png" width="300px" data-figure></img>
-</p>
+![](/twai-brand.png){.figure .width50}
 
-Yes, you can easily reproduce the image above, if you use the same prompt and configuration parameters. To do that, we'll need to install some software for AI art generation.
+You can easily reproduce the image above, if you use the same prompt and configuration parameters. To do that, we'll need to install some software for AI art generation.
 
 Let's go to the next page to learn about the required software and how to install it.
 

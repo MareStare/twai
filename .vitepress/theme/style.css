@@ -25,8 +25,19 @@ https://github.com/vuejs/vitepress/issues/854#issuecomment-1232938474
     --vp-c-brand-3: var(--vp-c-purple-3);
 }
 
-[data-figure] {
+.figure {
     border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width75 {
+    max-width: 75%;
+}
+
+.width50 {
+    max-width: 50%;
 }
 
 .inline-logo {
@@ -37,4 +48,33 @@ https://github.com/vuejs/vitepress/issues/854#issuecomment-1232938474
     text-decoration: underline;
     background-repeat: no-repeat;
     margin-bottom: -3px;
+}
+
+/* logos */
+.aura-flow {
+    background-image: url(/logos/aura-flow.png);
+}
+.derpibooru {
+    background-image: url(/logos/derpibooru.svg);
+}
+.forge {
+    background-image: url(/logos/forge.svg);
+}
+.nvidia {
+    background-image: url(/logos/nvidia.svg);
+}
+.purplesmart-ai {
+    background-image: url(/logos/purplesmart-ai.ico);
+}
+.stability-ai {
+    background-image: url(/logos/stability-ai.png);
+}
+.stability-matrix {
+    background-image: url(/logos/stability-matrix.ico);
+}
+.tantabus {
+    background-image: url(/logos/tantabus.svg);
+}
+.windows {
+    background-image: url(/logos/windows.svg);
 }

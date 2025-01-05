@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { useData, withBase } from "vitepress";
+import { useData } from "vitepress";
 import formatDate from "../utils/formatDate";
-import { computed } from "vue";
 
 const { frontmatter } = useData();
 </script>

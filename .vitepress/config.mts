@@ -105,21 +105,23 @@ export default defineConfig({
         ],
 
         sidebar: [
+            { text: "Welcome", link: "/welcome" },
             {
-                text: "Welcome",
-                link: "/welcome",
-            },
-            {
-                text: "Software",
-                link: "/software",
-            },
-            {
-                text: "Prompting Basics",
-                link: "/prompting-basics",
-            },
-            {
-                text: "Publishing",
-                link: "/publishing",
+                text: "Basics",
+                items: [
+                    {
+                        text: "Software",
+                        link: "/basics/software",
+                    },
+                    {
+                        text: "Text to Image",
+                        link: "/basics/text-to-image",
+                    },
+                    {
+                        text: "Publishing",
+                        link: "/publishing",
+                    },
+                ],
             },
             {
                 text: "Models",
