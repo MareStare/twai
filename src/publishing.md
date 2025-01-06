@@ -18,7 +18,7 @@ Now let's learn how to properly tag our AI art.
 
 This tag is for images, that were purely AI generated with little to no editing and clean-up. They must follow [the base quality standards](https://tantabus.ai/pages/aibasequality) and have the following tags:
 
-```csv
+```tags
 ai content, ai generated, prompter:{author_name}
 ```
 
@@ -26,7 +26,7 @@ ai content, ai generated, prompter:{author_name}
 
 This tag is for images, that were heavily edited, used extensive inpainting, were based on a hand-made sketch or alike. They must follow [the higher quality standards](https://tantabus.ai/pages/aicompquality) and should be tagged with:
 
-```csv
+```tags
 ai content, ai composition, editor:{author_name}
 ```
 

@@ -63,6 +63,11 @@ export default defineConfig({
             // use more markdown-it plugins
             md.use(abbr);
         },
+
+        languageAlias: {
+            prompt: "csv",
+            tags: "csv",
+        },
     },
 
     head,

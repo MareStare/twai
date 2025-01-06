@@ -1,3 +1,9 @@
+/* Color theme customization to make accent on purple colors */
+:root {
+    --vp-c-brand-1: var(--vp-c-purple-1);
+    --vp-c-brand-3: var(--vp-c-purple-3);
+}
+
 /* Opt-in nowrap via a class */
 .nobr {
     white-space: nowrap;
@@ -7,10 +13,15 @@ abbr {
     cursor: help;
 }
 
+.language-tags code,
+.language-prompt code {
+    white-space: pre-line !important;
+}
+
 /*
-God bless this kind person for sharing the code snippet that adds the
-ability to zoom images.
-https://github.com/vuejs/vitepress/issues/854#issuecomment-1232938474
+    God bless this kind person for sharing the code snippet that adds the
+    ability to zoom images.
+    https://github.com/vuejs/vitepress/issues/854#issuecomment-1232938474
 */
 .medium-zoom-overlay {
     z-index: 1000000;
@@ -18,11 +29,6 @@ https://github.com/vuejs/vitepress/issues/854#issuecomment-1232938474
 
 .medium-zoom-image {
     z-index: 1000001;
-}
-
-:root {
-    --vp-c-brand-1: var(--vp-c-purple-1);
-    --vp-c-brand-3: var(--vp-c-purple-3);
 }
 
 .figure {
@@ -38,6 +44,10 @@ https://github.com/vuejs/vitepress/issues/854#issuecomment-1232938474
 
 .width50 {
     max-width: 50%;
+}
+
+.width30 {
+    max-width: 30%;
 }
 
 .inline-logo {
