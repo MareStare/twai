@@ -47,3 +47,8 @@ li span {
     font-size: var(--vp-code-font-size);
 }
 </style>
+
+**Blog posts coming soon...**. In the meantime enjoy an image of Twilight looking at planet Earth and waiting for [@MareStare](https://tantabus.ai/profiles/MareStare) to write a blog post:
+
+![](https://tantabuscdn.net/img/view/2025/1/7/36487.png){.figure}
+[(Source)](https://tantabus.ai/images/36487)

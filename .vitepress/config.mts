@@ -1,5 +1,6 @@
 import { defineConfig, HeadConfig } from "vitepress";
 import { abbr } from "@mdit/plugin-abbr";
+import { icon } from "@mdit/plugin-icon";
 
 const head: HeadConfig[] = [
     ["link", { rel: "icon", href: `/logos/twai.png` }],
@@ -62,6 +63,9 @@ export default defineConfig({
         config: (md) => {
             // use more markdown-it plugins
             md.use(abbr);
+            md.use(icon, {
+                render: (rawIcon) => `<span class="icon ${rawIcon}"></span>`,
+            });
         },
 
         languageAlias: {
@@ -112,26 +116,79 @@ export default defineConfig({
         sidebar: [
             { text: "Welcome", link: "/welcome" },
             {
-                text: "Basics",
+                text: "Prerequisites",
                 items: [
                     {
                         text: "Software",
-                        link: "/basics/software",
+                        link: "/prerequisites/software",
                     },
                     {
-                        text: "Text to Image",
-                        link: "/basics/text-to-image",
-                    },
-                    {
-                        text: "Publishing",
-                        link: "/publishing",
+                        text: "Initial Setup",
+                        link: "/prerequisites/initial-setup",
                     },
                 ],
             },
             {
-                text: "Models",
-                link: "/models",
+                text: "Prompting",
+                items: [
+                    {
+                        text: "Introduction",
+                        link: "/prompting/introduction",
+                    },
+                    {
+                        text: "Keyword Weight",
+                        link: "/prompting/keyword-weight",
+                    },
+                    {
+                        text: "Quality Keywords",
+                        link: "/prompting/quality-keywords",
+                    },
+                ],
             },
+            {
+                text: "Configurations",
+                items: [
+                    {
+                        text: "Seed",
+                        link: "/configurations/seed",
+                    },
+                    {
+                        text: "Sampling",
+                        link: "/configurations/sampling",
+                    },
+                ],
+            },
+            {
+                text: "Publishing",
+                link: "/publishing",
+                items: [
+                    {
+                        text: "Tantabus",
+                        link: "/publishing/tantabus",
+                    },
+                    {
+                        text: "Derpibooru",
+                        link: "/publishing/derpibooru",
+                    },
+                ],
+            },
+            {
+                text: "Reference",
+                items: [
+                    {
+                        text: "Resolutions",
+                        link: "/reference/resolutions",
+                    },
+                ],
+            },
+            // {
+            //     text: "ADetailer",
+            //     link: "/adetailer",
+            // },
+            // {
+            //     text: "Models",
+            //     link: "/models",
+            // },
             {
                 text: "Contributing",
                 link: "/contributing",

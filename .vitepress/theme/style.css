@@ -50,7 +50,11 @@ abbr {
     max-width: 30%;
 }
 
-.inline-logo {
+.float-right {
+    float: right;
+}
+
+.icon {
     display: inline-block;
     background-size: contain;
     min-width: 1em;
@@ -58,6 +62,30 @@ abbr {
     text-decoration: underline;
     background-repeat: no-repeat;
     margin-bottom: -3px;
+}
+
+/* generic icons */
+
+.landscape {
+    background-image: url(/icons/landscape-black.png);
+}
+.dark .landscape {
+    background-image: url(/icons/landscape-white.png);
+}
+
+.portrait {
+    background-image: url(/icons/landscape-black.png);
+    transform: rotate(-90deg);
+}
+.dark .portrait {
+    background-image: url(/icons/landscape-white.png);
+}
+
+.square {
+    background-image: url(/icons/square-black.png);
+}
+.dark .square {
+    background-image: url(/icons/square-white.png);
 }
 
 /* logos */

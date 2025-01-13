@@ -8,7 +8,8 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
-    "@mdit/plugin-abbr": "^0.13.1",
+    "@mdit/plugin-abbr": "^0.15.0",
+    "@mdit/plugin-icon": "^0.15.1",
     "@types/node": "^20.14.11",
     "chalk": "^4",
     "css-select": "^5.1.0",
@@ -17,12 +18,13 @@
     "htmlparser2": "^9.1.0",
     "leven": "^4.0.0",
     "medium-zoom": "^1.1.0",
+    "prettier": "^3.4.2",
     "ts-node": "^10.9.2",
     "ts-pattern": "^5.5.0",
-    "vitepress": "^1.5.0",
-    "prettier": "^3.3.3"
+    "vitepress": "^1.5.0"
   },
   "dependencies": {
+    "@img-comparison-slider/vue": "^8.0.0",
     "vue": "^3.5.12"
   }
 }
