@@ -11,7 +11,7 @@ When AI starts generating an image from a prompt, it executes an iterative algor
 
 The sampling algorithm _denoises_ the image and refines its details step by step. This is why "sampling" is also often referred to as "denoising". You can see how this happens with our image, which uses `Euler a` sampling method:
 
-<video controls src="/configurations/sampling/euler-a-iterations.mp4" title="'Euler a' iterations"></video>
+<video controls src="/configurations/sampling/euler-a-iterations.webm" title="'Euler a' iterations"></video>
 
 ::: tip
 
@@ -58,7 +58,7 @@ Sampling methods are the algorithms, that define the logic of the denoising proc
 
 Converging samplers such as `Euler` (without "a" in the end) stop noticeably changing the major features of the image after reaching some number of sampling steps. Let's see what it means by setting "Sampling method" to `Euler` and reviewing its iterations:
 
-<video controls src="/configurations/sampling/euler-iterations.mp4" title="'Euler' iterations"></video>
+<video controls src="/configurations/sampling/euler-iterations.webm" title="'Euler' iterations"></video>
 
 As you can see, Twilight's posture and the scene, in general, settles pretty fast and doesn't change noticeably at the later sampling iterations. This means the algorithm "converges" to some fixed point (picture).
 
@@ -70,7 +70,7 @@ The main feature of an ancestral sampler is that on every sampling step it carri
 
 We've been using the default sampler `Euler a` from the start of this guide. You've also seen it in action in a video at the top of this page, but here is this same video of `Euler a` iterations again for comparison with `Euler` higher:
 
-<video controls src="/configurations/sampling/euler-a-iterations.mp4" title="'Euler a' iterations"></video>
+<video controls src="/configurations/sampling/euler-a-iterations.webm" title="'Euler a' iterations"></video>
 
 As you can see, Twilight changes several times in the process of sampling from being a big mare to a smaller one. If you increase the number of steps further, she may continue to change.
 
@@ -86,7 +86,7 @@ Usually, you'll see `Automatic`, `Uniform` or `Karras` used as the noise schedul
 
 There isn't a true best sampler. It usually makes sense to try different sampling configurations to see which one improves your image.
 
-I usually use converging samplers to get some guarantee about the final image shape, because I like fast experimentation with lower number of sampling steps. Howeveer, some people prefer the randomness of the ancestral samplers.
+I usually use converging samplers to get some guarantee about the final image shape, because I like fast experimentation with lower number of sampling steps. However, some people prefer the randomness of the ancestral samplers.
 
 Generally speaking, the most popular samplers are `DMP2M++ Karras`, `Euler` and `Euler a`.
 
