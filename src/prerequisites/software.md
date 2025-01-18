@@ -71,7 +71,7 @@ Training a base model requires insane amount of compute resources and captioned 
 
 [**Stable Diffusion**](https://stability.ai/stable-image) is a free and open-source [generative](https://en.wikipedia.org/wiki/Generative_artificial_intelligence) AI _base_ model developed by Stability AI.
 
-_Fine-tune_ AI models, are built on top of base models such as Stable Diffusion by extending it with an additional dataset of images with the intended style and characters.
+_Fine-tune_ AI models, are built on top of base models such as Stable Diffusion by extending them with an additional dataset of images with the intended style and characters.
 
 ![](/prerequisites/software/ai-models-composition.png){.figure}
 

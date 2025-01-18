@@ -11,7 +11,7 @@ Welcome to the pony AI art guide! It's a handbook created with the purpose of te
 
 ::: warning
 
-⚠️ The guide is the process of bootstrapping, and thus it's lacking a bunch of crucial chapters! [@MareStare] will make a blog post and feature it on Tantabus forums, in [Tantabus discord](https://tantabus.ai/pages/discord) and elsewhere once the initial MVP of the guide is finished.
+⚠️ The guide is in the process of bootstrapping, and thus it's lacking a bunch of crucial chapters! [@MareStare] will make a blog post and feature it on Tantabus forums, in [Tantabus discord](https://tantabus.ai/pages/discord) and elsewhere once the initial MVP of the guide is finished.
 
 If you'd like to offer your help and contribute, see [Contributing](./contributing) for details. Your help is important because [@MareStare]'s knowledge about AI art is still incomplete. It's very likely you may have some knowledge, that [@MareStare] and other beginner (or even more experienced) AI artists don't possess, and you could share that knowledge here.
 

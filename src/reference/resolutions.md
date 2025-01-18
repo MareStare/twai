@@ -35,7 +35,7 @@
 
 </div>
 <figcaption style="text-align: right;">
-    <sub><a href="https://tantabus.ai/images/36996">Recommended by Stability AI</a></sub>
+    <sub><a href="https://stability.ai/sdxl-aws-documentation">Recommended by Stability AI</a></sub>
 </figcaption>
 
 </figure>
