@@ -75,7 +75,7 @@ _Fine-tune_ AI models, are built on top of base models such as Stable Diffusion 
 
 ![](/prerequisites/software/ai-models-composition.png){.figure}
 
-The process of training a custom model on top of a base model is called _fine-tuning_. You can think of it like taking an experienced artist (Stable Diffusion) who knows how to draw humans, cars, buildings and teaching him how to draw ponies. It is much easier for that artist to learn than for a person who knows nothing about drawing.
+The process of training a custom model on top of a base model is called _fine-tuning_. You can think of it like taking an experienced artist (Stable Diffusion) who knows how to draw humans, cars, buildings and teaching them how to draw ponies. It is much easier for that artist to learn than for a person who knows nothing about drawing.
 
 There are a bunch of versions of Stable Diffusion: `1.4`, `1.5`, `2.0`, `2.1`, `XL`, `3.0`, `3.5`, etc. We'll focus on fine-tunes of `XL` version (SDXL) in this guide.
 
@@ -83,7 +83,7 @@ There are a bunch of versions of Stable Diffusion: `1.4`, `1.5`, `2.0`, `2.1`, `
 
 Fine-tune AI model directly determines what images you'll get, their quality, style and content in general. There are many models capable of generating pony images, and you'll definitely try several of them. These models are often hosted on [Civitai](https://civitai.com/). There you can review their description, terms of use and examples of images people generate with them.
 
-::: tip License considerations
+::: tip License Considerations
 
 Always make sure to review the model's license and terms of use. For example, some models like [ZoinksNoob](#zoinksnoob) disallow selling the generated images.
 
@@ -97,11 +97,11 @@ Always make sure to review the model's license and terms of use. For example, so
 
 [Pony Diffusion V6 XL](https://civitai.com/models/257749/pony-diffusion-v6-xl) is an AI model fine-tuned on Stable Diffusion XL (SDXL for short).
 
-Pony Diffusion is most famous for generating... you guessed it - ponies 😏. Anyhow, it's popular far beyond MLP community (including anime and furry), because it can generate almost any anime/cartoon character in artistic style. It's developed by [PurpleSmart.ai](https://purplesmart.ai/), and it has a large community on [Discord](https://purplesmart.ai/discord). Feel free to join it and ask questions in `#novice-questions`.
+Pony Diffusion is most famous for generating... you guessed it - ponies 😏. Anyhow, it's popular far beyond MLP community (notably anime and furry), because it can generate almost any anime/cartoon character in artistic style. It's developed by [PurpleSmart.ai](https://purplesmart.ai/), and it has a large community on [Discord](https://purplesmart.ai/discord). Feel free to join it and ask questions in `#novice-questions`.
 
 The upcoming version of Pony Diffusion (V7) will use a new base model - ::aura-flow:: [Aura Flow](https://fal.ai/models/fal-ai/aura-flow). We'll update the guide once that version is generally available.
 
-Pony Diffusion is really nice, and V7 is very promising. We'll cover its peculiarities later in the guide. However, we'll start with another model called [ZoinksNoob](#zoinksnoob). It is a bit easier to use than Pony Diffusion and produces more detailed images. Anyway, you are encouraged to try several models to find your favorite!
+Pony Diffusion is really nice, and the upcoming V7 is very promising. We'll cover its peculiarities later in the guide. However, we'll start with another model called [ZoinksNoob](#zoinksnoob). It is a bit easier to use than Pony Diffusion and produces more detailed images. Anyway, you are encouraged to try several models to find your favorite!
 
 ### ZoinksNoob
 
