@@ -111,6 +111,8 @@ Pony Diffusion is really nice, and the upcoming V7 is very promising. We'll cove
 
 Even though ZoinksNoob is more of a furry-focused model, it's been gaining popularity among the MLP community. The image at the top of the ["Welcome"](../welcome) page was generated with this model.
 
+You can find this model's community and author at [Furry Diffusion Discord](https://discord.gg/J5cZSemqcn).
+
 ### Installing
 
 In StabilityMatrix click on "Model Browser". Click on "Show NSFW Content" because both Pony Diffusion and ZoinksNoob can generate NSFW images. Then, search for "Zoinks":
